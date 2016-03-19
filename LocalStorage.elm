@@ -130,5 +130,5 @@ not available in the browser:
 
 -}
 remove : String -> Task Error String
-remove key =
+remove =
   Native.LocalStorage.remove
